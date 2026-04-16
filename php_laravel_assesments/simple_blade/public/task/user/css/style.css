@@ -1,0 +1,267 @@
+
+body {
+background: #f8f9fa;
+font-family: "Segoe UI", sans-serif;
+}
+
+.dashboard {
+max-width: 420px;
+margin: auto;
+min-height: 100vh;
+background: #fff;
+padding: 20px;
+position: relative;
+}
+
+.task-card {
+border-radius: 14px;
+padding: 16px;
+display: flex;
+align-items: center;
+justify-content: space-between;
+box-shadow: 0 10px 25px rgba(0,0,0,0.05);
+margin-bottom: 16px;
+}
+
+.task-important {
+background: #FFC43D;
+color: #000;
+}
+.screen {
+      max-width: 420px;
+      margin: auto;
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+      padding: 24px;
+    }
+
+    .illustration {
+      flex: 1;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .illustration i {
+      font-size: 120px;
+      color: #000;
+    }
+
+    .content h2 {
+      font-weight: 700;
+      margin-bottom: 12px;
+    }
+
+    .content p {
+      color: #333;
+      font-size: 15px;
+    }
+
+    .footer {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-top: auto;
+    }
+
+    .next-btn {
+      width: 56px;
+      height: 56px;
+      border-radius: 50%;
+      background-color: #fff;
+      border: none;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 22px;
+    }
+
+    .back {
+      color: #000;
+      text-decoration: none;
+      font-weight: 500;
+    }
+.task-normal {
+background: #fff;
+}
+
+.task-info {
+display: flex;
+align-items: center;
+gap: 12px;
+}
+
+.task-icon {
+width: 42px;
+height: 42px;
+border-radius: 10px;
+background: rgba(255,255,255,0.4);
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+.toggle-circle {
+width: 22px;
+height: 22px;
+border-radius: 50%;
+border: 3px solid #fff;
+}
+
+.toggle-off {
+border-color: #ddd;
+}
+
+.fab {
+position: absolute;
+bottom: 25px;
+left: 50%;
+transform: translateX(-50%);
+width: 64px;
+height: 64px;
+border-radius: 50%;
+background: #FFC43D;
+display: flex;
+align-items: center;
+justify-content: center;
+font-size: 28px;
+color: #000;
+box-shadow: 0 15px 30px rgba(0,0,0,0.2);
+}
+
+.section-label {
+font-size: 12px;
+color: #999;
+margin: 20px 0 10px;
+}
+
+.fab {
+position: absolute;
+bottom: 25px;
+left: 50%;
+transform: translateX(-50%);
+width: 64px;
+height: 64px;
+border-radius: 50%;
+background: #FFC43D;
+border: none;
+display: flex;
+align-items: center;
+justify-content: center;
+font-size: 28px;
+color: #000;
+box-shadow: 0 15px 30px rgba(0,0,0,0.2);
+}
+.card {
+border-radius: 20px;
+border: none;
+}
+
+/* Circular Progress */
+.progress-circle {
+width: 160px;
+height: 160px;
+border-radius: 50%;
+background: conic-gradient(#fbbf24 75%, #e5e7eb 0);
+display: flex;
+align-items: center;
+justify-content: center;
+margin: auto;
+}
+
+.progress-inner {
+width: 120px;
+height: 120px;
+background: #fff;
+border-radius: 50%;
+}
+
+.task-list li {
+display: flex;
+align-items: center;
+font-size: 16px;
+margin-bottom: 12px;
+}
+
+.task-dot {
+width: 12px;
+height: 12px;
+background: #fbbf24;
+border-radius: 50%;
+margin-right: 12px;
+}
+
+.completed {
+text-decoration: line-through;
+color: #9ca3af;
+}
+.offcanvas-body a 
+{
+text-decoration: none;
+list-style-type: none;
+color: black;    
+}
+
+    .screen {
+      max-width: 420px;
+      margin: auto;
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+      padding: 24px;
+    }
+
+    .illustration {
+      flex: 1;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .illustration i {
+      font-size: 16px;
+      color: #000;
+    }
+
+    .content h2 {
+      font-weight: 700;
+      margin-bottom: 12px;
+    }
+
+    .content p {
+      color: #333;
+      font-size: 15px;
+    }
+
+    .footer {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-top: auto;
+    }
+
+    .next-btn {
+      width: 56px;
+      height: auto;
+      border-radius: 50%;
+      background-color: #fff;
+      border: none;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 22px;
+    }
+
+    .back {
+      color: #000;
+      text-decoration: none;
+      font-weight: 500;
+    
+    }
+    body {
+      background-color: #FFC43e;
+      height: 100vh;
+      margin: 0;
+      font-family: "Segoe UI", sans-serif;
+    }
